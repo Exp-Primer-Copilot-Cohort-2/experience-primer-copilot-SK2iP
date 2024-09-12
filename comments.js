@@ -43,7 +43,7 @@ var server = http.createServer(function(req,res){
     }else{
         fs.readFile('./views/404.html',function(err,data){
             if(err){
-                return res.end('404 Not Found');
+                return res.end('404 Not Founds');
             }
             res.end(data);
         });
